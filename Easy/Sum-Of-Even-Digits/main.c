@@ -16,7 +16,7 @@ main(void)
   printf("Please provide a value for n:");
   scanf("%d", &n);
 
-  // Loop over n and add every digit of n to sum
+  // Loop over n and add every even digit of n to sum.
   int sum = 0;
   while (n > 0)
   {
