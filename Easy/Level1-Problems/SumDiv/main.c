@@ -9,7 +9,7 @@
 static unsigned int SumDiv (unsigned int n)
 {
 	unsigned int sum = 0;
-	unsigned int d   = 1;
+	size_t d = 1;
 
 	while (d * d < n) {
 		if (n % d == 0) 
